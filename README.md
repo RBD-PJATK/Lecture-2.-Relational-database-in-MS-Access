@@ -42,14 +42,14 @@ for a library.  You need MS Access to solve these exercises.</p>
 This schema includes the names of the columns (fields)
 which will store the rows of this table.</p>
 
-<p align="center"><img border="0" src="images/2_1.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_1.png"></p>
 
 <hr><h3><a name="Arkusz">Datasheet</a></h3>
 
 <p>After you have defined the schema of the table, you can enter data and browse through it in
 <i>the datasheet view</i>.</p>
 
-<p align="center"><img border="0" src="images/2_4.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_4.png"></p>
 
 <p>In the datasheet view you can perform the following operations on the rows of the table:</p>
 
@@ -79,7 +79,7 @@ the same way as we created the table <i>Customers</i>.
 The objects will be displayed in the database window.
 </p>
 
-<p align="center"><img border="0" src="images/2_6.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_6.png"></p>
 
 <p>It is time for a short question which checks whether you remember all kinds of objects 
 available in the user interface of a relational database in MS Access.</p>
@@ -112,14 +112,14 @@ the database window of MS Access shows only tables and views?</table>
 which offers the choice of the type.
 It is the <b>Lookup Wizard</b>.</p>
 
-<p align="center"><img border="0" src="images/2_2.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_2.png"></p>
 
 <p>The lookup defines the list of values or indicates a column of a table (or a query)
 which
 will be the source of values for the field, e.g. the values of the foreign key are taken
 from the column of the primary key.  The field which has the lookup is displayed as a combo box.</p>
 
-<p align="center"><img border="0" src="images/2_5.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_5.png"></p>
 
 <p>In the datasheet view it is better to show the values associated with the lookup and not the field of lookup itself.
 Instead of <i>Empno</i>s of employees you can show their names (in the pop-down list and in the field).</p>
@@ -131,7 +131,7 @@ However, the database physically stores the identifiers of employees, i.e. value
 </p>
 
 
-<p align="center"><img border="0" src="images/2_7.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_7.png"></p>
 
 
 <hr><h3><a name="Kol">Properties of columns</a></h3>
@@ -178,7 +178,7 @@ We want to stress
 that the customers cannot use more credit than the established limit.  Thus we define "Validation Rule"
 to be <code>[Credit used] &lt; [Credit limit]</code>. We also set the appropriate error message.</p>
 
-<p align="center"><img border="0" src="images/2_8.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_8.png"></p>
 
 <hr><h3><a name="Indeksy">Indexes</a></h3>
 
@@ -186,7 +186,7 @@ to be <code>[Credit used] &lt; [Credit limit]</code>. We also set the appropriat
 In order to work with indexes, select the menu item "View -&gt; Indexes"
 or the button "Indexes" on the toolbar.</p>
 
-<p align="center"><img border="0" src="images/2_10.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_10.png"></p>
 
 <hr><h3><a name="Zmiana">Change of the schema of a table</a></h3>
 
@@ -254,7 +254,7 @@ On the diagram below the association between <i>Letters</i> and
 (window "Edit Relationships").
 </table>
 
-<p align="center"><img border="0" src="images/2_9.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_9.png"></p>
 
 <p>Every association between tables has two ends: the master and the detail.
 The master is marked with number "1" placed near the referenced table.
@@ -374,11 +374,11 @@ It is displayed as a datasheet just like tables.</p>
 
 <h4><a name="Siatka">Query grid</a></h4>
 
-<p align="center"><img border="0" src="images/2_11.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_11.png"></p>
 
 <p>The result of the execution of a select query is a datasheet just like for tables.</p>
 
-<p align="center"><img border="0" src="images/2_18.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_18.png"></p>
 
 <p>The join type is set separately for each select query, although initially it 
 is set to the default type defined in window "Relationships".</p>
@@ -394,14 +394,14 @@ fulfill the specified condition, e.g.
 
 <pre>((Empno &gt; 100 AND Sal &lt; 1000) OR Empno &lt; 10)</pre>
 
-<p align="center"><img border="0" src="images/2_15.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_15.png"></p>
 
 <h4><a name="Dol">Append Query</a></h4>
 
 <p><i>An append query</i> causes the insertion of rows into a table. For example, the following query inserts
 the row: <code>(3244, 'Kelly', 'Analyst')</code> into table <i>Employees</i>.</p>
 
-<p align="center"><img border="0" src="images/2_16.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_16.png"></p>
 
 <p>We can name a table in row "Table" of the query grid.  If we do so,
 the rows selected from this table will be appended
@@ -412,7 +412,7 @@ to the target table.</p>
 <p><i>An update query</i> updates rows of a table, e.g. we can raise
 the salaries of employees who earn less than 500 by 10%.</p>
 
-<p align="center"><img border="0" src="images/2_17.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_17.png"></p>
 
 <p>We suggest solving <a href="#Zadanie 3">Exercise 3</a> now.</p>
 
