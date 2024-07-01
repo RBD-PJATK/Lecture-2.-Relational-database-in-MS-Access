@@ -320,8 +320,8 @@ is the default.</p>
 <dd>Only include rows where the joined fields from both tables are equal.
 	For example, if a customer has submitted no cases, she will not be displayed.
 
-	<p align="center"><img border="0" src="images/2_12.png"></p>
- 	<p align="center"><img border="0" src="images/2_18.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_12.png"></p>
+ <p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_18.png"></p>
 
 <dt><i>Right outer join</i>
 <dd>Include ALL records from the right table and only those records from the
@@ -330,8 +330,8 @@ is the default.</p>
 	will be displayed, but the <i>a case</i> not associated with any
 	<i>customer</i> will not be displayed.
 
-	<p align="center"><img border="0" src="images/2_20.png"></p>
-	<p align="center"><img border="0" src="images/2_19.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_20.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_19.png"></p>
 
 <dt><i>Left outer join</i>
 <dd>Include ALL records from the left table and only those records from the
@@ -341,7 +341,7 @@ is the default.</p>
 	who submitted 
 	no <i>cases</i> will not be displayed.
 
-	<p align="center"><img border="0" src="images/2_21.png"></p>
+<p align="center"><img border="0" src="https://gakko.pjwstk.edu.pl/materialy/2398/lec/wyklad02/images/2_21.png"></p>
 </dl>
 
 <p>We suggest solving <a href="#Zadanie 2">exercise 2</a> now.</p>
@@ -628,8 +628,8 @@ You will search for the translators and authors of books as well as their contac
 	<li>Create append queries which copy the contents of the original tables to the local tables.
 	</ol></p>
 
-	<p>What will happen if you try to run these append queries again?
-	How to design such back-up facility properly to be run daily? </p>
+<p>What will happen if you try to run these append queries again?
+How to design such back-up facility properly to be run daily? </p>
 </ol>
 
 <h4><a name="Zadanie 4">Exercise 4</a></h4>
